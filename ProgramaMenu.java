@@ -31,6 +31,10 @@ public class ProgramaMenu {
                     break;
                 case 2:
                     System.out.println("Funcionalidad 2 en desarrollo...");
+                    System.out.print("Ingrese una frase: ");
+                    String frase = scanner.nextLine();
+                    String[] palabras = frase.trim().split("\\s+");
+                    System.out.println("Número de palabras en la frase: " + palabras.length);
                     break;
                 case 3:
                     System.out.println("Funcionalidad 3 en desarrollo...");
