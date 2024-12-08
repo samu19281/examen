@@ -1,0 +1,2 @@
+Este proyecto consiste en la implementación de un programa en Java que presenta un menú de opciones para realizar operaciones básicas con texto. El propósito es practicar el desarrollo de un programa modular, utilizando control de versiones con Git, y colaborar a través de GitHub.
+
