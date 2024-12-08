@@ -23,6 +23,10 @@ public class ProgramaMenu {
             switch (opcion) {
                 case 1:
                     System.out.println("Funcionalidad 1 en desarrollo...");
+                    System.out.print("Ingrese la primera palabra: ");
+                    String palabra1 = scanner.nextLine();
+                    System.out.print("Ingrese la segunda palabra: ");
+                    String palabra2 = scanner.nextLine();
                     break;
                 case 2:
                     System.out.println("Funcionalidad 2 en desarrollo...");
