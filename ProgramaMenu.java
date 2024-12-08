@@ -40,6 +40,7 @@ public class ProgramaMenu {
                             contador++;
                         }
                     }
+                    System.out.println("La letra '" + letra + "' aparece " + contador + " veces en la frase.");
                     break;
                 case 4:
                     System.out.print("¿Está seguro de que desea salir? (s/n): ");
