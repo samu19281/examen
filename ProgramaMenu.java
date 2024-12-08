@@ -27,6 +27,7 @@ public class ProgramaMenu {
                     String palabra1 = scanner.nextLine();
                     System.out.print("Ingrese la segunda palabra: ");
                     String palabra2 = scanner.nextLine();
+                    System.out.println("Resultado: " + palabra1 + palabra2);
                     break;
                 case 2:
                     System.out.println("Funcionalidad 2 en desarrollo...");
