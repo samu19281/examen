@@ -29,6 +29,17 @@ public class ProgramaMenu {
                     break;
                 case 3:
                     System.out.println("Funcionalidad 3 en desarrollo...");
+                    System.out.print("Ingrese una frase: ");
+                    String frase2 = scanner.nextLine();
+                    System.out.print("Ingrese la letra a buscar: ");
+                    char letra = scanner.nextLine().charAt(0);
+                    int contador = 0;
+
+                    for (char c : frase2.toCharArray()) {
+                        if (c == letra) {
+                            contador++;
+                        }
+                    }
                     break;
                 case 4:
                     System.out.print("¿Está seguro de que desea salir? (s/n): ");
